@@ -19,8 +19,10 @@ Open Cypress and Create a Test
 
 Once Cypress is installed, you can open the Cypress Test Runner with the following command:
 
-bash
-Copy code
-npx cypress open
-This command will launch the Cypress Test Runner, and it will create a cypress directory in your project with sample test filess
+`npx cypress open`
+
+This command will launch the Cypress Test Runner, and it will create a cypress directory in your project with sample test files
+
+For this repo, the sample cypress test is inside the cypress/e2e directory, you can run the sample test using the below command:
+`npx cypress run --headed`
 
