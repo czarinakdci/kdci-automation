@@ -1,2 +1,2 @@
 # kdci-automation
-Test Automation for Webmaps
+Test Automation for Webmaps & SNOAA
