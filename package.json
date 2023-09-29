@@ -1,0 +1,28 @@
+{
+  "name": "kdci-automation",
+  "version": "1.0.0",
+  "description": "Test Automation for Webmaps",
+  "main": "index.js",
+  "scripts": {
+    "prod-env": "cypress run --env ENV=production",
+    "stage-env": "cypress run --env ENV=staging",
+    "qa-env": "cypress run --env ENV=qa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czarinakdci/kdci-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czarinakdci/kdci-automation/issues"
+  },
+  "homepage": "https://github.com/czarinakdci/kdci-automation#readme",
+  "dependencies": {
+    "cypress": "^13.1.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "typescript": "^5.2.2"
+  }
+}
